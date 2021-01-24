@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-a {
-  @apply hover:underline text-purple-600 hover:text-purple-800 cursor-pointer;
+@layer components {
+  a {
+    @apply hover:underline text-purple-600 hover:text-purple-800 cursor-pointer;
+  }
 }
