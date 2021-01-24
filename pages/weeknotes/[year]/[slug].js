@@ -8,8 +8,11 @@ const WeeknotesTemplate = ({ weeknote }) => {
 
   return (
     <Layout>
-      <h1 className="text-2xl font-bold">Weeknotes: {title}</h1>
-      <div className={"prose"} dangerouslySetInnerHTML={{ __html: content }} />
+      <h1 className="text-2xl lg:text-4xl font-bold">Weeknotes: {title}</h1>
+      <div
+        className="prose lg:prose-xl"
+        dangerouslySetInnerHTML={{ __html: content }}
+      />
     </Layout>
   );
 };
