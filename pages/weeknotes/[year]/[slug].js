@@ -4,23 +4,15 @@ import markdownToHtml from "../../../lib/markdownToHtml";
 import Layout from "../../../src/components/layout";
 
 const WeeknotesTemplate = ({ weeknote }) => {
-  const { year, slug, content } = weeknote;
+  const { year, title, content } = weeknote;
 
   return (
     <Layout>
-      <p>
-        Weeknotes: {year} {slug}
-      </p>
+      <h1 className="text-2xl font-bold">Weeknotes: {title}</h1>
       <div className={"prose"} dangerouslySetInnerHTML={{ __html: content }} />
     </Layout>
   );
 };
-
-// WeeknotesTemplate.getInitialProps = async (context) => {
-//   const { year, slug } = context.query;
-
-//   return { year, slug };
-// };
 
 export async function getStaticProps({ params }) {
   // const post = getPostBySlug(params.slug, [
