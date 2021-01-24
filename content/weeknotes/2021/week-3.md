@@ -1,0 +1,39 @@
+---
+title: "Week 3 - Two blog posts and a bunch of TILs"
+date: "2021-01-23"
+---
+
+- Week Notes
+    - I took off MLK day from independent work to spend time with my quarantine pod and to go for a snowy winter walk at the [Skokie Lagoons](https://twitter.com/jbrancha/status/1351263436211159047?s=20).
+    - "I wrote a blog post about this issue I've run into recently with default values and ActiveRecord objects: [A Few Methods for Returning Default Values when Creating ActiveRecord Objects](https://dev.to/jbranchaud/a-few-methods-for-returning-default-values-when-creating-activerecord-objects-1457) #[[Rails]]"
+    - Today was Inauguration Day for President Joe Biden and Vice President Kamala Harris. We listened to the ceremony on the radio.
+    - "I've started reading [[B: On Writing Well]] by [[William Zinsser]]"
+    - "I wrote a blog post detailing the steps I needed to take to [Add Tailwind CSS to a Rails app](https://dev.to/jbranchaud/add-tailwind-css-to-a-rails-app-2e3b). #[[Rails]] #[[tailwindcss]] #[[Webpacker]]"
+    - I added [Ale](https://github.com/dense-analysis/ale) to my [[Vim]] setup so that I can get [[Prettier]] auto-formatting on save. It's been set up for JavaScript, TypeScript, and JSX/TSX files.
+- [[Found on the Internet]]
+    - "[Validation is a Mirage](https://m.signalvnoise.com/validation-is-a-mirage/), [[Jason Fried]] #[[37Signals]] #[[Shipping Products]] #[[Product Development]] #[[Tiny Product]]"
+    - "[Networks, Serendipity, and the flow of ideas](https://emilywebber.co.uk/networks-serendipity-and-the-flow-of-ideas/), [[Emily Webber]]"
+    - "[My Three Strikes Rule for Blogging](https://www.swyx.io/three-strikes/), [[Shawn Wang]] #[[blogging]] #[[Writing]]"
+    - "[How to write good weeknotes](https://gilest.org/2020/tips-for-writing-good-weeknotes/), [[Giles Turnbull]] #[[To Read]] #[[Weeknotes]]"
+    - "[Do They Deserve The Gift of Your Keystrokes?](https://www.hanselman.com/blog/do-they-deserve-the-gift-of-your-keystrokes), [[Scott Hanselman]]"
+    - "[Creating Luck](https://www.swyx.io/create_luck/), [[Shawn Wang]]"
+    - "[Metaprogramming in Ruby: It's All About the Self](https://yehudakatz.com/2009/11/15/metaprogramming-in-ruby-its-all-about-the-self/), [[Yehuda Katz]] #[[Ruby]] #[[Metaprogramming]]"
+    - "[TailwindComponents](https://tailwindcomponents.com/) is a community-driven collection of custom [[tailwindcss]] components that you can search through and copy into your project."
+    - "[There's No Speed Limit](https://sive.rs/kimo), [[Derek Sivers]] h/t [[Jake Worth]]"
+    - "Window Tiling Managers for [[Mac]] #[[Window Tiling Manager]]"
+    - "[React Semantic UI](https://react.semantic-ui.com/) is a component library for [[ReactJS]]."
+- [[TIL]]s I published this week
+    - [Switch The Running Postgres Server Version](https://github.com/jbranchaud/til/blob/master/postgres/switch-the-running-postgres-server-version.md), #[[PostgreSQL]]
+    - [Allow Neovim To Copy/Paste With System Clipboard](https://github.com/jbranchaud/til/blob/master/vim/allow-neovim-to-copy-paste-with-system-clipboard.md), #[[Vim]]
+    - [Columns With Default Values Are Nil On Create](https://github.com/jbranchaud/til/blob/master/rails/columns-with-default-values-are-nil-on-create.md), #[[Rails]]
+    - [Auto-Squash Those Fixup Commits](https://github.com/jbranchaud/til/blob/master/git/auto-squash-those-fixup-commits.md), #[[Git]]
+    - [Compare Two Variables In A Bash Script](https://github.com/jbranchaud/til/blob/master/unix/compare-two-variables-in-a-bash-script.md), #[[Bash]] #[[Unix]]
+    - [Set A Timestamp Field To The Current Time](https://github.com/jbranchaud/til/blob/master/rails/set-a-timestamp-field-to-the-current-time.md), #[[Rails]]
+    - [Unstage Changes With Git Restore](https://github.com/jbranchaud/til/blob/master/git/unstage-changes-with-git-restore.md), #[[Git]]
+    - [Format And Print The Current Date And Time](https://github.com/jbranchaud/til/blob/master/shell/format-and-print-the-current-date-and-time.md), #[[Bash]] #[[Unix]]
+    - [Base Styles For Text Link](https://github.com/jbranchaud/til/blob/master/tailwind/base-styles-for-text-link.md), #[[tailwindcss]] #[[CSS]]
+    - [Create Files And Directories For Dynamic Routes](https://github.com/jbranchaud/til/blob/master/nextjs/create-files-and-directories-for-dynamic-routes.md), #[[Next.js]]
+- TODOs
+    - [Maximize Developer Effectiveness](https://martinfowler.com/articles/developer-effectiveness.html), [[Martin Fowler Blog]] #[[To Read]]
+    - [Considerations for Creating a Card Component](https://css-tricks.com/considerations-for-creating-a-card-component/), [[Chris Coyier]] #[[To Read]]
+    - [Good Business Writing Is About Logic, Not Words](https://pulseasync.com/operators/share-written-ideas/) #[[Writing]] #[[To Read]]
