@@ -37,4 +37,3 @@ date: "2021-01-16"
 - TODOs
     - Read this "[Why your team doesn't need to use pull requests](https://infrastructure-as-code.com/book/2021/01/02/pull-requests.html), [[Kief Morris]] #[[Code Reviews]] #[[Pull Requests]]"
     - Check out some of the resources here: "There are lots of [[Onboarding]] resources on [[Samuel Hulick]]'s [contact page](https://www.useronboard.com/contact/)."
-
