@@ -7,11 +7,14 @@ date: "2021-01-16"
     - I've started maintaining a list of manuals, documentation, and reference material that have high learning value. I've called the page [[Read The Fucking Manual]], though it's probably a losing battle to try to co-opt that phrase.
     - I'm doing more work with GitHub omniauth and overall Devise authentication. If you are writing a [[Rails]] app that serves as an authentication hub for other sites, the Rails app can act as its own OAuth provider for those client sites. The Rails app can also continue to maintain its own Rails sessions apart from the OAuth-based users.
     - I integrated [[fzf]] into my [[Vim]] setup with some keybindings for quickly opening up project-wide filename fuzzy-finding, project-wide text fuzzy-finding, and open vim buffer fuzzy-finding. This is largely inspired by [[Dorian Karter]]'s [vimrc](https://github.com/dkarter/dotfiles/blob/master/vimrc#L421-L442).
-```javascript
-nnoremap <silent> <C-b> :call FZFOpen(':Buffers')<CR>
-nnoremap <silent> <C-g>g :call FZFOpen(':FzfRg!')<CR>
-nnoremap <silent> <C-g>c :call FZFOpen(':Commands')<CR>
-nnoremap <silent> <C-p> :call FZFOpen(':Files')<CR>```
+
+    ```vimscript
+    nnoremap <silent> <C-b> :call FZFOpen(':Buffers')<CR>
+    nnoremap <silent> <C-g>g :call FZFOpen(':FzfRg!')<CR>
+    nnoremap <silent> <C-g>c :call FZFOpen(':Commands')<CR>
+    nnoremap <silent> <C-p> :call FZFOpen(':Files')<CR>
+    ```
+
     - "I wrote a [zsh function](https://twitter.com/jbrancha/status/1349857205596643331?s=20) to help with switching between Postgres versions. It switches to a known version that you specify by stopping the current version's Postgres server, starting the desired version's Postgres server, and then swapping the asdf global version."
     - "I did my first ever live stream today, on youtube. It took a little bit of work to figure out how to set up a Streamlabs OBS scene and then how to get that feeding a stream to YouTube live. Once it was up and running, it was smooth. I streamed for about an hour walking through building a magic link sign in flow for a Rails app. [link](https://www.youtube.com/watch?v=6Ab15n-U2GA&feature=youtu.be) #[[Live Streaming]]"
     - I've been working with [[Egghead]] since November, mainly helping them prepare for the launch of the new version of their site. The new site went live on Thursday. It looks incredible. I'm excited I got to be part of it.
